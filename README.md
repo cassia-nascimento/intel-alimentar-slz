@@ -60,7 +60,7 @@ A seção analítica consolida indicadores estratégicos por meio de gráficos i
 Utilizando georreferenciamento com `Folium`, o sistema exibe a distribuição espacial das famílias monitoradas em São Luís/MA. Os marcadores são classificados por níveis de risco, utilizando uma escala visual que varia de seguro a grave. A visualização permite identificar concentrações de vulnerabilidade e apoiar a priorização territorial das ações assistenciais.
 
 <p align="center">
-  <img src="./assets/mapade-calor-de-vulnerabilidade.png" alt="Mapa de Calor de Vulnerabilidade" width="90%">
+  <img src="./assets/mapa-de-calor-de-vulnerabilidade.png" alt="Mapa de Calor de Vulnerabilidade" width="90%">
 </p>
 ---
 
