@@ -37,12 +37,31 @@ A engine de priorização (implementada em `src/sorting.py`) adota dois níveis 
 
 ## 📊 Inteligência Visual (Dashboard Interativo)
 
-O ecossistema orquestra dados e exporta um painel estratégico puramente em HTML corporativo (`dashboard_slz.html`), composto por:
+O ecossistema integra dados socioeconômicos, indicadores de vulnerabilidade alimentar e informações pluviométricas para apoiar a tomada de decisão baseada em evidências. O resultado é um painel analítico interativo desenvolvido em HTML, CSS e JavaScript, que permite identificar famílias prioritárias, analisar fatores de risco e monitorar a distribuição espacial da vulnerabilidade em São Luís/MA.
 
-1. **Mapa de Calor (Geospatial Heatmap):** Renderização visual das zonas de risco alimentar utilizando a biblioteca `Folium`, permitindo o mapeamento de precisão de comunidades isoladas.
-2. **Monitoramento Sazonal:** Gráficos que cruzam índices pluviométricos simulados com alertas automáticos de necessidade de estoque emergencial.
-3. **Perfil de Vulnerabilidade:** Distribuição estatística percentual do nível de segurança alimentar da base cadastrada.
+### 📋 1. Plano de Ação Prioritário (Famílias Cadastradas)
 
+O painel organiza automaticamente as famílias cadastradas por nível de risco, renda, infraestrutura habitacional e recebimento de auxílio social. Filtros dinâmicos permitem segmentar os registros por gravidade, cobertura de benefícios e bairro, facilitando a identificação de casos prioritários para intervenção.
+
+<p align="center">
+  <img src="./assets/plano-de-acao-prioritario.png" alt="Plano de Ação Prioritário" width="90%">
+</p>
+
+### 📊 2. Análise Estatística e Inteligência Preditiva
+
+A seção analítica consolida indicadores estratégicos por meio de gráficos interativos. Entre eles estão a relação entre precipitação e distribuição de cestas, o monitoramento sazonal de alertas, a cobertura de auxílio por nível de risco e o acúmulo de fatores de vulnerabilidade por família. Essas visualizações permitem identificar padrões, antecipar cenários críticos e orientar ações preventivas.
+
+<p align="center">
+  <img src="./assets/analise-estatistica.png" alt="Análise Estatística" width="90%">
+</p>
+
+### 🗺️ 3. Mapa de Calor de Vulnerabilidade
+
+Utilizando georreferenciamento com `Folium`, o sistema exibe a distribuição espacial das famílias monitoradas em São Luís/MA. Os marcadores são classificados por níveis de risco, utilizando uma escala visual que varia de seguro a grave. A visualização permite identificar concentrações de vulnerabilidade e apoiar a priorização territorial das ações assistenciais.
+
+<p align="center">
+  <img src="./assets/mapade-calor-de-vulnerabilidade.png" alt="Mapa de Calor de Vulnerabilidade" width="90%">
+</p>
 ---
 
 ## 📂 Arquitetura do Sistema
